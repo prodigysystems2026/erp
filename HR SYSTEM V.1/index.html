@@ -3,27 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HR SYSTEM</title>
+    <title>HR SYSTEM - Prodigy Systems</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        iframe {
-            display: block;
-            width: 100vw;
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 100vh;
-            border: none;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
         }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .btn:hover { background-color: #0056b3; }
     </style>
 </head>
 <body>
-    <iframe 
-        src="https://script.google.com/macros/s/AKfycbzpYl-KmaRCYXMT4fSevglqNlfNH5DjZlQ3mF4WAn8Xcz4yM_LBVLTC_xw1RmZTMQLS/exec" 
-        allow="camera; microphone; display-capture; clipboard-write;"
-        sandbox="allow-forms allow-scripts allow-same-origin allow-popups">
-    </iframe>
+
+    <div class="container">
+        <h1>ยินดีต้อนรับสู่ HR SYSTEM</h1>
+        <p>กรุณากดปุ่มด้านล่างเพื่อเข้าสู่ระบบ</p>
+        <br>
+        <a href="https://script.google.com/macros/s/AKfycbzpYl-KmaRCYXMT4fSevglqNlfNH5DjZlQ3mF4WAn8Xcz4yM_LBVLTC_xw1RmZTMQLS/exec" 
+           target="_blank" class="btn">เข้าสู่ระบบ HR SYSTEM</a>
+    </div>
+
 </body>
 </html>
